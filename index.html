@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Assignment 2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<h1>
+    Correct order to eat a lobster
+  </h1>
+  
+  <h3>
+    in my humble opinion as someone from Maine
+  </h3>
+  
+  <img id="whole-lobster" src="https://www.theflavorbender.com/wp-content/uploads/2019/01/Parts-of-a-Lobster-1-700x1050.jpg" />
+  
+  <h3>
+    Click the buttons below to reveal the correct order:
+  </h3>
+  
+  <!-- create button for order -->
+    <div class="container">
+      <div class="center">
+        <div class="button" data-order="first">
+          <div class="order-number">
+            FIRST
+          </div>
+        </div>
+      </div>
+    </div>
+  
+<!-- lobster part and explainer are text -->
+      <div class="lobster-part" data-order="first">
+        the tail
+      </div>
+  
+      <div class="explainer" data-order="first">
+        Easy to open and delicious. An obvious first choice.
+      </div>
+  
+<!-- repeat for 2nd, 3rd, 4th  -->
+  
+      <div class="container">
+        <div class="center">
+          <div class="button" data-order="second">
+            <div class="order-number">
+              SECOND
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="lobster-part" data-order="second">
+        the big (a.k.a. "crusher") claw
+      </div>
+  
+      <div class="explainer" data-order="second">
+        Harder to open and less meat than the tail, but arguably more delicious.
+      </div>
+  
+      <div class="container">
+        <div class="center">
+          <div class="button" data-order="third">
+            <div class="order-number">
+              THIRD
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="lobster-part" data-order="third">
+        the smaller (a.k.a "pincher") claw
+      </div>
+  
+      <div class="explainer" data-order="third">
+        Easier to open than the crusher, but way less meat. Still delicious.
+      </div>
+  
+  
+      <div class="container">
+        <div class="center">
+          <div class="button" data-order="fourth">
+            <div class="order-number">
+              FOURTH
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="lobster-part" data-order="fourth">
+        the legs
+      </div>
+  
+      <div class="explainer" data-order="fourth">
+        Only at this point are you desparate enough to try to suck the meat out of the legs. Hardly ever works anyway.
+  
+<!-- add p to text for 4th button, since I don't want it revealed until the end -->
+      <p>
+        *I don't normally eat the remaining parts, but some <a href="https://downeast.com/food-drink/edible-parts-of-a-lobster/" target="_blank">very hard-core Mainers</a> do.
+      </p>
+  </div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="scripts.js"></script>
+
+</html>
+
+  

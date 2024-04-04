@@ -1,0 +1,66 @@
+* {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+h3 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  
+img {
+    height: 450px;
+  }
+  
+/* container to create a buffer area around buttons */
+.container {
+    height: 50px;
+    position: relative;
+  }
+  
+/* center to vertically align buttons */
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  
+.button{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #000000;
+    padding: 10px;
+    border-radius: 6px;
+    margin: 0 0 6px 0;
+    background-color: #32a852;
+    cursor: pointer;
+   }
+  
+.button:hover {
+    background-color: #80bd90;
+   }
+  
+.order-number {
+    font-size: 16px;
+  }
+  
+.lobster-part {
+    font-size: 17px;
+    text-decoration-line: underline;
+  }
+  
+.explainer {
+    font-size: 14px;
+    margin: 0 0 12px 0;
+  }
+  
+p {
+    font-size: 12px;
+    padding: 10px;
+    margin: 0 24px 12px 0;
+  }
